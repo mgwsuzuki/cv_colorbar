@@ -1,55 +1,55 @@
-# Arty Z7-20‚©‚çƒJƒ‰[ƒo[M†‚ğo—Í‚·‚é
+# Arty Z7-20ã‹ã‚‰ã‚«ãƒ©ãƒ¼ãƒãƒ¼ä¿¡å·ã‚’å‡ºåŠ›ã™ã‚‹
 
-HDMIM†‚Ì‚¨•×‹­‚ğ–Ú“I‚ÉAƒJƒ‰[ƒo[‚ğo—Í‚·‚éRTL‚ğì‚Á‚Ä‚İ‚½B
-Digilent‚©‚çHDMI-out‚ÌƒŠƒtƒ@ƒŒƒ“ƒX‚ª‚ ‚é‚¯‚ÇA‘½‹@”\E‚‹@”\‚Ì‚½‚ß
-•ª‚©‚è‚É‚­‚©‚Á‚½‚Ì‚Å‚¢‚¿‚©‚çì‚Á‚Ä‚İ‚½B
+HDMIä¿¡å·ã®ãŠå‹‰å¼·ã‚’ç›®çš„ã«ã€ã‚«ãƒ©ãƒ¼ãƒãƒ¼ã‚’å‡ºåŠ›ã™ã‚‹RTLã‚’ä½œã£ã¦ã¿ãŸã€‚
+Digilentã‹ã‚‰HDMI-outã®ãƒªãƒ•ã‚¡ãƒ¬ãƒ³ã‚¹ãŒã‚ã‚‹ã‘ã©ã€å¤šæ©Ÿèƒ½ãƒ»é«˜æ©Ÿèƒ½ã®ãŸã‚
+åˆ†ã‹ã‚Šã«ãã‹ã£ãŸã®ã§ã„ã¡ã‹ã‚‰ä½œã£ã¦ã¿ãŸã€‚
 
-ƒƒWƒbƒN‚ÌÅ¬‰»‚È‚Çl‚¦‚Ä‚¨‚ç‚¸A©•ª‚ª‚í‚©‚è‚â‚·‚¢‚Æv‚¤‹Lq‚È‚Ì‚Å‚ ‚µ‚©‚ç‚¸B
+ãƒ­ã‚¸ãƒƒã‚¯ã®æœ€å°åŒ–ãªã©è€ƒãˆã¦ãŠã‚‰ãšã€è‡ªåˆ†ãŒã‚ã‹ã‚Šã‚„ã™ã„ã¨æ€ã†è¨˜è¿°ãªã®ã§ã‚ã—ã‹ã‚‰ãšã€‚
 
 
-# VivadoƒvƒƒWƒFƒNƒg
+# Vivadoãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆ
 
-Vivado‚ğ—§‚¿ã‚°ATcl Console‚©‚çcolorbar_proj.tcl‚ª‚ ‚éƒtƒHƒ‹ƒ_‚ÉˆÚ“®‚·‚éB
+Vivadoã‚’ç«‹ã¡ä¸Šã’ã€Tcl Consoleã‹ã‚‰colorbar_proj.tclãŒã‚ã‚‹ãƒ•ã‚©ãƒ«ãƒ€ã«ç§»å‹•ã™ã‚‹ã€‚
 
 cd /project/folder
 
-colorbar_proj.tcl‚ğ“Ç‚İ‚Ş
+colorbar_proj.tclã‚’èª­ã¿è¾¼ã‚€
 
 source colorbar_proj.tcl
 
-‚ ‚Æ‚ÍGenerate Bitstream‚ğÀs‚µAFPGA‚ğƒRƒ“ƒtƒBƒOƒŒ[ƒVƒ‡ƒ“‚·‚éB
+ã‚ã¨ã¯Generate Bitstreamã‚’å®Ÿè¡Œã—ã€FPGAã‚’ã‚³ãƒ³ãƒ•ã‚£ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ã™ã‚‹ã€‚
 
-ˆê•”ƒ^ƒCƒ~ƒ“ƒOˆá”½‚ª‚Å‚é‚ªA325MHzƒNƒƒbƒN‚ÅLƒ`ƒJ‚ğ‚·‚é‚½‚ß‚ÌƒJƒEƒ“ƒ^‚È‚Ì‚Å‚Ğ‚Æ‚Ü‚¸–³‹‚·‚éB
+ä¸€éƒ¨ã‚¿ã‚¤ãƒŸãƒ³ã‚°é•åãŒã§ã‚‹ãŒã€325MHzã‚¯ãƒ­ãƒƒã‚¯ã§Lãƒã‚«ã‚’ã™ã‚‹ãŸã‚ã®ã‚«ã‚¦ãƒ³ã‚¿ãªã®ã§ã²ã¨ã¾ãšç„¡è¦–ã™ã‚‹ã€‚
 
 
 # SDK
 
-Zynq‚ÍFPGA‚ğƒRƒ“ƒtƒBƒOƒŒ[ƒVƒ‡ƒ“‚µ‚Ä‚àPS•”‚ğƒRƒ“ƒtƒBƒOƒŒ[ƒVƒ‡ƒ“‚µ‚È‚¢‚ÆPL•”‚ª“®‚©‚È‚¢B
-‚±‚ÌRTL‚Íƒ\ƒtƒgƒEƒFƒA‚©‚ç‚Ìİ’è‚ğ‘S‚­‚µ‚È‚¢‚Ì‚ÅAXSDK‚Ìƒeƒ“ƒvƒŒ[ƒg‚Æ‚µ‚Ä—pˆÓ‚³‚ê‚Ä‚¢‚é
-helloworld‚ğ‚»‚Ì‚Ü‚Üg‚¤B‚æ‚¤‚Íps7_init.tcl‚ªÀs‚³‚ê‚ê‚Î‚»‚ê‚Å‚æ‚¢B
+Zynqã¯FPGAã‚’ã‚³ãƒ³ãƒ•ã‚£ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ã—ã¦ã‚‚PSéƒ¨ã‚’ã‚³ãƒ³ãƒ•ã‚£ã‚°ãƒ¬ãƒ¼ã‚·ãƒ§ãƒ³ã—ãªã„ã¨PLéƒ¨ãŒå‹•ã‹ãªã„ã€‚
+ã“ã®RTLã¯ã‚½ãƒ•ãƒˆã‚¦ã‚§ã‚¢ã‹ã‚‰ã®è¨­å®šã‚’å…¨ãã—ãªã„ã®ã§ã€XSDKã®ãƒ†ãƒ³ãƒ—ãƒ¬ãƒ¼ãƒˆã¨ã—ã¦ç”¨æ„ã•ã‚Œã¦ã„ã‚‹
+helloworldã‚’ãã®ã¾ã¾ä½¿ã†ã€‚ã‚ˆã†ã¯ps7_init.tclãŒå®Ÿè¡Œã•ã‚Œã‚Œã°ãã‚Œã§ã‚ˆã„ã€‚
 
-ˆê‰è‡‚ğˆÈ‰º‚É¦‚·B
+ä¸€å¿œæ‰‹é †ã‚’ä»¥ä¸‹ã«ç¤ºã™ã€‚
 
-Vivado‚ÅFile->Export->Export Hardware‚ğÀs‚·‚éBInclude Btistream‚Éƒ`ƒFƒbƒN‚ğ“ü‚ê‚ÄÀsB
+Vivadoã§File->Export->Export Hardwareã‚’å®Ÿè¡Œã™ã‚‹ã€‚Include Btistreamã«ãƒã‚§ãƒƒã‚¯ã‚’å…¥ã‚Œã¦å®Ÿè¡Œã€‚
 
-!(export_hardware.png)
+![](export_hardware.png)
 
-Vivado‚ÅFile->Launch SDK‚ğÀs‚·‚éB
+Vivadoã§File->Launch SDKã‚’å®Ÿè¡Œã™ã‚‹ã€‚
 
-!(launch_SDK.png)
+![](launch_SDK.png)
 
-XSDK‚©‚çFile->New->Application Project‚ğÀs‚·‚éB
-ƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg‚Ì’Ê‚è‚Éİ’è‚·‚éB
+XSDKã‹ã‚‰File->New->Application Projectã‚’å®Ÿè¡Œã™ã‚‹ã€‚
+ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã‚·ãƒ§ãƒƒãƒˆã®é€šã‚Šã«è¨­å®šã™ã‚‹ã€‚
 
-!(new_appplication_project1.png)
-!(new_appplication_project2.png)
+![](new_application_project1.png)
+![](new_application_project2.png)
 
 
-XSDK‚©‚çRun->Run Configuration‚ğÀs‚·‚éB
-¶ƒyƒCƒ“‚ÌXilinx C/C++ application (GDB)‚ğ‰EƒNƒŠƒbƒN‚µ‚ÄNew
-ƒXƒNƒŠ[ƒ“ƒVƒ‡ƒbƒg‚Ì’Ê‚è‚Éİ’è‚·‚éB
+XSDKã‹ã‚‰Run->Run Configurationã‚’å®Ÿè¡Œã™ã‚‹ã€‚
+å·¦ãƒšã‚¤ãƒ³ã®Xilinx C/C++ application (GDB)ã‚’å³ã‚¯ãƒªãƒƒã‚¯ã—ã¦Newã™ã‚‹ã€‚
+Target Setupã¨Applicationã®ã‚¿ãƒ–ã‚’ã‚¹ã‚¯ãƒªãƒ¼ãƒ³ã‚·ãƒ§ãƒƒãƒˆã®é€šã‚Šã«è¨­å®šã™ã‚‹ã€‚
 
-!(run_config1.png)
-!(run_config2.png)
+![](run_config1.png)
+![](run_config2.png)
 
-Run‚ğ‰Ÿ‚µ‚ÄÀs‚·‚éB
+Runã‚’æŠ¼ã—ã¦å®Ÿè¡Œã™ã‚‹ã€‚
